@@ -100,15 +100,23 @@ Resnet18:
 * Optimizer = Adam
 * Loss = CrossEntropyLoss
 
-### Results
+### Results:
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/63df328115266dd945fc01f4/EsT_MvYdLNDOXVkzRqFxt.png)
 
 ![image/png](https://cdn-uploads.huggingface.co/production/uploads/63df328115266dd945fc01f4/srkSSvYqa8erEoVqrAjnc.png)
 
 VGG: 73% Accuracy Validation set
+
 Resnet18: 90% Accuracy Validaton set
 
-### Limitations
+Has limited ability to correctly recognize the states of vehicles outside of the training scope.
+
+![image/png](https://cdn-uploads.huggingface.co/production/uploads/63df328115266dd945fc01f4/jrVjVzh1Im_OLBSn-IB0G.png)
+
+![image/png](https://cdn-uploads.huggingface.co/production/uploads/63df328115266dd945fc01f4/VIDZfkPJDo6gTk0AIGf0w.png)
+
+
+### Limitations:
 Doesn't have the ability to recognize whether the provided image is a tank or not.
 <img src="https://huggingface.co/Dingaling01/russian_tank_destroyed_or_not_cnn/resolve/main/brownie.png" alt="drawing" width="250"/>
