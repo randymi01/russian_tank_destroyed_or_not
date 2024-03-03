@@ -119,4 +119,5 @@ Has limited ability to correctly recognize the states of vehicles outside of the
 
 ### Limitations:
 Doesn't have the ability to recognize whether the provided image is a tank or not.
+
 <img src="https://huggingface.co/Dingaling01/russian_tank_destroyed_or_not_cnn/resolve/main/brownie.png" alt="drawing" width="250"/>
