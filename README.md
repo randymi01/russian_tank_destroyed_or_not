@@ -1,26 +1,6 @@
----
-license: mit
-language:
-- en
-metrics:
-- accuracy
-results:
-      - task:
-          type: image-classification
-        metrics:
-          - name: Accuracy
-            type: VGG
-            value: 0.725
-          - name: Accuracy
-            type: Resnet18
-            value: 0.901
-pipeline_tag: image-classification
-tags:
-- tanks
----
-
 # Russian Tank Destroyed or Not Classifier
-Binary Image Classifier for whether a tank is destroyed or not using images from <a href = https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html>Oryx's</a> collection of confirmed Russian armor losses.
+Binary Image Classifier for whether a tank is destroyed or not using images from <a href = https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html>Oryx's</a> collection of confirmed Russian armor losses. Models were trained on VGG and
+Resnet CNN model architectures, acheiving an accuracy of 90% on out of sample images.
 
 Two models were trained:
 1. VGG
