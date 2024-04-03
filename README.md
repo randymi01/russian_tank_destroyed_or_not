@@ -50,7 +50,7 @@ Training data was sourced from a <a href = https://www.kaggle.com/datasets/piter
 
 Image filenames in the original dataset contain a list of tags: ['destroyed', 'captured', 'abandoned']. Some images have multiple tags as a result of a vehicle being for example both abandoned then captured, or as a result of an image having multiple vehicles. Images with multiple vehicles or no tags were excluded. Single vehicle images with multiple tags were considered not destroyed if the destroyed tag was not present in the image filename.
 
-After data cleaning and labeling, there were 487 destroyed tanks and 228 not destroyed tanks. These images were split 85/15 into a training and validation set. Imbalanced class representation was by using a weighted random sampler that overweighted the minority "not destroyed" class.
+After data cleaning and labeling, there were 487 destroyed tanks and 228 not destroyed tanks. These images were split 85/15 into a training and validation set. Imbalanced class representation was alleviated by using a weighted random sampler that overweighted the minority "not destroyed" class.
 
 Images were resized and manipulated using the following transformation:
 
